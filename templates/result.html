@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+        <main>
+            <!-- Container for displaying output -->
+            <div class="container">
+                <div class="row fullContent border border-dark rounded-3 text-center" style="background-color:#E2E4EA";>
+                    <h1>Extra-marital affairs prediction model</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div align="center" class="col-7 container rightPage  border border-dark rounded-3" style="margin-bottom:50px;">
+                        {% if prediction == 0 %}
+                            <h2>The passenger couldn't survive the disaster.</h2>
+                            <br>
+                        {% else %}
+                            <h2>The passenger survived the disaster.</h2>
+                            <br>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <footer><p>Created by Retin P Kumar © 2021</p></footer>
+        </main>
+{% endblock %}

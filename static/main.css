@@ -1,0 +1,34 @@
+main{
+    max-width: 70%;
+    max-height: max-content;
+    margin: 50px auto 50px auto;
+    background-color: #E2E4EA;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.fullImage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://media.wired.com/photos/5f9a0d462cc0d6153d3f963c/125:94/w_1749,h_1315,c_limit/backchannel-how-to-escape-the-titanic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+  }
+
+footer{
+    background-color:#CED9FF;
+}
+
+.rightPage{
+    margin: 20px 20px 20px 20px;
+    background-color:#A4B1EF;
+}
+
+.leftPage{
+    background-color: #F2DDD4;
+}

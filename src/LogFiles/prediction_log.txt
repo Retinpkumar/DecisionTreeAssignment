@@ -1,0 +1,56 @@
+
+2021-10-17/19:38:47	Preparing for obtaining user input.'
+
+2021-10-17/19:38:47	Exception occured while obtaining user input. Exception :could not convert string to float: 'Male'
+
+2021-10-17/19:38:47	Failed to obtain user input.
+
+2021-10-17/19:40:11	Preparing for obtaining user input.'
+
+2021-10-17/19:40:11	User input obtained successfully.
+
+2021-10-17/19:40:11	Successfully converted User input to 'test.csv'.
+
+2021-10-17/19:40:11	Exception occured while loading the scaler file. Exception :[Errno 2] No such file or directory: 'Model/standard_scaler.pickle'
+
+2021-10-17/19:40:11	Failed to load the scaler file.
+
+2021-10-17/19:42:29	Preparing for obtaining user input.'
+
+2021-10-17/19:42:29	User input obtained successfully.
+
+2021-10-17/19:42:29	Successfully converted User input to 'test.csv'.
+
+2021-10-17/19:42:29	Exception occured while loading the model. Exception :[Errno 2] No such file or directory: 'Model/logistic_regression_model.pickle'
+
+2021-10-17/19:42:29	Failed to load the model for prediction.
+
+2021-10-17/19:43:47	Preparing for obtaining user input.'
+
+2021-10-17/19:43:47	User input obtained successfully.
+
+2021-10-17/19:43:47	Successfully converted User input to 'test.csv'.
+
+2021-10-17/19:43:47	Successfully loaded the model for prediction.
+
+2021-10-17/19:43:47	Successfully predicted the output.
+
+2021-10-17/19:43:47	Preparing for obtaining user input.'
+
+2021-10-17/19:43:47	User input obtained successfully.
+
+2021-10-17/19:43:47	Successfully converted User input to 'test.csv'.
+
+2021-10-17/19:43:47	Successfully loaded the model for prediction.
+
+2021-10-17/19:43:47	Successfully predicted the output.
+
+2021-10-17/19:51:50	Preparing for obtaining user input.'
+
+2021-10-17/19:51:50	User input obtained successfully.
+
+2021-10-17/19:51:50	Successfully converted User input to 'test.csv'.
+
+2021-10-17/19:51:50	Successfully loaded the model for prediction.
+
+2021-10-17/19:51:50	Successfully predicted the output.

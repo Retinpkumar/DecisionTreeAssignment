@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+    <main>
+        <div class="container">
+            <div class="row fullContent border border-dark rounded-3 text-center" style="background-color:#E2E4EA">
+                <h1>Titanic passenger survival prediction model</h1>
+                <!-- Container for right side column contents -->
+                <div class="col-10 container rightPage  border border-dark rounded-3">
+                    <br>
+                    <!-- Container for input values -->
+                    <div class="row container rightPageInputs">
+                        <div class="row text-center">
+                            <h2>Enter the input values</h2>
+                        </div>
+                        <!-- Form for collecting input from user -->
+                        <form action="/predict" method="POST">
+                            <br>
+                            <div class="col-12" align="left">
+                                <!-- Input 1 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="sex">Sex</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="Sex" id="sex" name="sex" type="text" required="required">
+                                            <option value=Male selected hidden>Select an option</option>
+                                            <option value=Male>Male</option>
+                                            <option value=Female>Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 2 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="age">Age</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <input class="form-control" placeholder="Age" id="age" name="age" type="number" required="required">
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 3 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="fare">Ticket Fare</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <input class="form-control" placeholder="Fare" id="fare" name="fare" type="number" required="required">
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 4 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="family">Travelling with family</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="Family" id="family" name="family" type="text" required="required">
+                                            <option value=Yes selected hidden>Select an option</option>
+                                            <option value=Yes>Yes</option>
+                                            <option value=No>No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 5 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="pclass">Passenger class</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="Pclass" id="pclass" name="pclass" type="number" required="required">
+                                            <option value=1 selected hidden>Select an option</option>
+                                            <option value=1>1</option>
+                                            <option value=2>2</option>
+                                            <option value=3>3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                            <!-- Predict Button-->
+                            <div class="row" style="width:100%; height:75px;">
+                                <div class="col">
+                                    <button type="submit" style="width:40%" class="btn btn-primary right">Predict</button>
+                                </div>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer><p>Created by Retin P Kumar © 2021</p></footer>
+    </main>
+{% endblock %}
