@@ -59,8 +59,6 @@ def result_page():
                 df_pred['Pclass_2'] = 0
                 df_pred['Pclass_3'] = 1
 
-            df_pred.to_csv("src/UserInput/test.csv") # Saving user input as csv
-
         except Exception as e:
 
             raise Exception()
